@@ -25,7 +25,7 @@ function preload() {
 }
 function setup() {
   frameRate(30);
-   createCanvas(windowWidth, windowHeight);
+   createCanvas(1280, 800);
   cols = floor(width/30);
   rows = floor(height/30);
   //createCanvas(windowWidth, windowHeight);
