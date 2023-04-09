@@ -27,8 +27,8 @@ class Tree {
     //Noise the position
     let xoff = random(30);
     let yoff = random(100, 200);
-    for (let i = 0; i < cols; i++) {
-      for (let j = 0; j < rows; j++) {
+    for (let i = 0; i < cols-1; i++) {
+      for (let j = 0; j < rows-1; j++) {
         // let x = i * w + w * 0.5 + noise(xoff) * width * 0.06;
         // let y = j * h + h * 0.5 + noise(yoff) * height * 0.06;
                 let x = i * w + w * 0.5 + noise(xoff) * 50;
